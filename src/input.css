@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a {
+  @apply text-blue-600;
+  @apply underline;
+
+  &:hover {
+    @apply text-blue-400;
+  }
+
+}
+input {
+  @apply border-2 border-blue-500;
+  @apply rounded-md;
+}
+button {
+  @apply bg-blue-600;
+  @apply text-white;
+  @apply rounded-md;
+  @apply px-2;
+  @apply py-1;
+  @apply drop-shadow
+}
+
+.letters {
+  @apply rotate-180
+}
+
+
